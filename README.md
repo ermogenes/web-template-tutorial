@@ -8,15 +8,15 @@ Iniciaremos com o estabelecimento de que nosso código será versionado. Utiliza
 
 Vamos criar um repositório remoto para armazenar nosso código.
 
-![](imagens/git-01.png)
+![](imagens/git-01.PNG)
 
 Ele será criado como _template_, mas isso não é necessário.
 
-![](imagens/git-02.png)
+![](imagens/git-02.PNG)
 
 Baixe seu código para que possamos iniciar, utilizando o URL disponibilizado na página do repositório.
 
-![](imagens/git-03.png)
+![](imagens/git-03.PNG)
 
 Nesse caso, o URL para clonagem é `https://github.com/ermogenes/web-template.git`.
 
@@ -25,6 +25,8 @@ Abra uma pasta para trabalho no terminal, e faça a clonagem do repositório.
 ```sh
 git clone https://github.com/ermogenes/web-template.git
 ```
+
+![](imagens/git-04.PNG)
 
 Faça a configuração do repositório para que ele não mude o caractere de final de linha dos arquivos ao salvar, usando:
 
@@ -46,7 +48,7 @@ Vamos indicar as extensões recomendadas para quem abrir o projeto. Essa indica�
 
 Fazemos isso usando essa opção _Add to Workspace Recommendations_:
 
-![](imagens/vscode-01.png)
+![](imagens/vscode-01.PNG)
 
 Serão adicionadas entradas em `.vscode/extensions.json`.
 
@@ -70,7 +72,7 @@ Ficará assim:
 
 Elas aparecerão para todos os usuários:
 
-![](imagens/vscode-02.png)
+![](imagens/vscode-02.PNG)
 
 Não é necessário instalar ainda. Faremos isso a cada passo.
 
@@ -108,7 +110,7 @@ Por exemplos, vamos instalar os pacotes do webpack:
 npm install --save-dev webpack webpack-cli
 ```
 
-![](imagens/npm-01.png)
+![](imagens/npm-01.PNG)
 
 Duas coisas serão criadas:
 
